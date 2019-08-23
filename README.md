@@ -8,3 +8,4 @@
 ## 
 ### Graph of the ResNet Model.
 ## 
+![model_block1](https://user-images.githubusercontent.com/40026126/63571655-6adec600-c59e-11e9-9d63-838880b0218f.png)
