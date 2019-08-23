@@ -44,11 +44,8 @@ early_patience = 4
 num_images = 20580
 batch_size = 128
 
-resNet_weights = 'resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5'
-
-
 model = Sequential()
-model.add(ResNet50(include_top = False, weights = resNet_weights,
+model.add(ResNet50(include_top = False, weights = 'imagenet',
                    pooling = resNet_pooling))
 
 
